@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": { "*": ["types/*"] },
+        "target": "es5",
+        "lib":["es2016", "dom"],
+        "declaration": true,
+		"noImplicitAny":false,
+		"noEmitOnError":true,
+        "removeComments": false,
+        "sourceMap": true,
+        "module": "commonjs",
+        "rootDir": "./",
+        "mapRoot": "./",
+        "outDir": "./"
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
